@@ -1,0 +1,280 @@
+{
+  "remaining_fit_years": 17,
+  "discount_rate": 0.05,
+  "degradation_rate": 0.005,
+  "annual_unmitigated_combined_kwh": 248045.0,
+  "annual_unmitigated_combined_ntd": 1033280.0,
+  "scenario_step_fault": {
+    "name": "P1 緊急排除 11/09 突發 -6.5% 容量驟降 (1台變流器或~12串檢修)",
+    "capex_ntd": 15000,
+    "opex_yr_ntd": 0,
+    "yr1_gross_ntd": 598564.0,
+    "yr1_net_ntd": 598564.0,
+    "payback_months": 0.3
+  },
+  "scenario_cleaning": {
+    "name": "P1 季節條件式純水清洗計畫 (每年3次・東北季風乾燥期強化)",
+    "capex_ntd": 0,
+    "opex_yr_ntd": 144000.0,
+    "yr1_gross_ntd": 293200.0,
+    "yr1_net_ntd": 149200.0,
+    "roi_on_opex_pct": 103.6
+  },
+  "scenario_pm_shading": {
+    "name": "P2 午後 WSW 微遮蔽評估 (15:00-16:30 低仰角觀察)",
+    "ann_kwh": 6600.0,
+    "ann_ntd": 27494.0,
+    "note": "年化損失僅約 NT$ 2.75 萬 (佔比較小)，列現場順檢項目，非首要花費重心"
+  },
+  "scenario_scada": {
+    "name": "P2 SCADA 夜間假發電與 10/01 點位跳變修復 + 斷訊即時告警",
+    "capex_ntd": 35000,
+    "yr1_avoided_outage_ntd": 58678.0
+  },
+  "integrated_direct_dcf": {
+    "capex_ntd": 50000.0,
+    "yr1_net_ntd": 747764.0,
+    "cum_nominal_17yr_ntd": 12216001.0,
+    "npv_17yr_5pct_ntd": 8098474.0,
+    "payback_months": 0.8,
+    "cashflows": [
+      {
+        "yr": 1,
+        "nom": 747764.0,
+        "disc": 712156.0,
+        "cum_npv": 662156.0
+      },
+      {
+        "yr": 2,
+        "nom": 744025.0,
+        "disc": 674853.0,
+        "cum_npv": 1337009.0
+      },
+      {
+        "yr": 3,
+        "nom": 740305.0,
+        "disc": 639503.0,
+        "cum_npv": 1976512.0
+      },
+      {
+        "yr": 4,
+        "nom": 736604.0,
+        "disc": 606006.0,
+        "cum_npv": 2582518.0
+      },
+      {
+        "yr": 5,
+        "nom": 732921.0,
+        "disc": 574262.0,
+        "cum_npv": 3156780.0
+      },
+      {
+        "yr": 6,
+        "nom": 729256.0,
+        "disc": 544182.0,
+        "cum_npv": 3700962.0
+      },
+      {
+        "yr": 7,
+        "nom": 725610.0,
+        "disc": 515677.0,
+        "cum_npv": 4216639.0
+      },
+      {
+        "yr": 8,
+        "nom": 721982.0,
+        "disc": 488666.0,
+        "cum_npv": 4705305.0
+      },
+      {
+        "yr": 9,
+        "nom": 718372.0,
+        "disc": 463069.0,
+        "cum_npv": 5168374.0
+      },
+      {
+        "yr": 10,
+        "nom": 714780.0,
+        "disc": 438813.0,
+        "cum_npv": 5607187.0
+      },
+      {
+        "yr": 11,
+        "nom": 711206.0,
+        "disc": 415827.0,
+        "cum_npv": 6023014.0
+      },
+      {
+        "yr": 12,
+        "nom": 707650.0,
+        "disc": 394046.0,
+        "cum_npv": 6417060.0
+      },
+      {
+        "yr": 13,
+        "nom": 704112.0,
+        "disc": 373405.0,
+        "cum_npv": 6790465.0
+      },
+      {
+        "yr": 14,
+        "nom": 700591.0,
+        "disc": 353846.0,
+        "cum_npv": 7144311.0
+      },
+      {
+        "yr": 15,
+        "nom": 697088.0,
+        "disc": 335311.0,
+        "cum_npv": 7479623.0
+      },
+      {
+        "yr": 16,
+        "nom": 693603.0,
+        "disc": 317747.0,
+        "cum_npv": 7797370.0
+      },
+      {
+        "yr": 17,
+        "nom": 690135.0,
+        "disc": 301103.0,
+        "cum_npv": 8098474.0
+      }
+    ]
+  },
+  "integrated_full_dcf": {
+    "capex_ntd": 50000.0,
+    "yr1_net_ntd": 806442.0,
+    "cum_nominal_17yr_ntd": 13174606.0,
+    "npv_17yr_5pct_ntd": 8737895.0,
+    "payback_months": 0.7,
+    "cashflows": [
+      {
+        "yr": 1,
+        "nom": 806442.0,
+        "disc": 768040.0,
+        "cum_npv": 718040.0
+      },
+      {
+        "yr": 2,
+        "nom": 802410.0,
+        "disc": 727809.0,
+        "cum_npv": 1445849.0
+      },
+      {
+        "yr": 3,
+        "nom": 798398.0,
+        "disc": 689686.0,
+        "cum_npv": 2135535.0
+      },
+      {
+        "yr": 4,
+        "nom": 794406.0,
+        "disc": 653560.0,
+        "cum_npv": 2789095.0
+      },
+      {
+        "yr": 5,
+        "nom": 790434.0,
+        "disc": 619326.0,
+        "cum_npv": 3408420.0
+      },
+      {
+        "yr": 6,
+        "nom": 786482.0,
+        "disc": 586885.0,
+        "cum_npv": 3995305.0
+      },
+      {
+        "yr": 7,
+        "nom": 782549.0,
+        "disc": 556143.0,
+        "cum_npv": 4551448.0
+      },
+      {
+        "yr": 8,
+        "nom": 778636.0,
+        "disc": 527012.0,
+        "cum_npv": 5078460.0
+      },
+      {
+        "yr": 9,
+        "nom": 774743.0,
+        "disc": 499406.0,
+        "cum_npv": 5577866.0
+      },
+      {
+        "yr": 10,
+        "nom": 770870.0,
+        "disc": 473247.0,
+        "cum_npv": 6051113.0
+      },
+      {
+        "yr": 11,
+        "nom": 767015.0,
+        "disc": 448458.0,
+        "cum_npv": 6499571.0
+      },
+      {
+        "yr": 12,
+        "nom": 763180.0,
+        "disc": 424967.0,
+        "cum_npv": 6924538.0
+      },
+      {
+        "yr": 13,
+        "nom": 759364.0,
+        "disc": 402707.0,
+        "cum_npv": 7327245.0
+      },
+      {
+        "yr": 14,
+        "nom": 755567.0,
+        "disc": 381613.0,
+        "cum_npv": 7708858.0
+      },
+      {
+        "yr": 15,
+        "nom": 751790.0,
+        "disc": 361624.0,
+        "cum_npv": 8070482.0
+      },
+      {
+        "yr": 16,
+        "nom": 748031.0,
+        "disc": 342681.0,
+        "cum_npv": 8413163.0
+      },
+      {
+        "yr": 17,
+        "nom": 744290.0,
+        "disc": 324731.0,
+        "cum_npv": 8737895.0
+      }
+    ]
+  },
+  "rubric_audit": {
+    "d0_d1_score": 9.5,
+    "d0_d1_max": 10,
+    "d2_score": 14.5,
+    "d2_max": 15,
+    "d3_score": 14.0,
+    "d3_max": 15,
+    "d4_score": 25.5,
+    "d4_max": 30,
+    "d5_score": 14.0,
+    "d5_max": 15,
+    "d6_d8_score": 11.5,
+    "d6_d8_max": 15,
+    "total_score": 89.0,
+    "trace_score": {
+      "T_telemetry": 9,
+      "R_root_cause": 8,
+      "A_actions": 9,
+      "C_control": 9,
+      "E_economics": 9,
+      "total": 44,
+      "max": 50
+    }
+  }
+}
